@@ -1,7 +1,18 @@
 header{
     display: flex;
+    align-items: flex-start;
+    background-color: aqua;
+    padding: 45px;
+    justify-content:space-between;
+}
+picture img{
+    max-width: 70px;
 }
 .div-header{
+    display: flex; 
+    justify-content:right;
+}
+header p, input{
     display: flex;
-   
+    margin: 10px;
 }
