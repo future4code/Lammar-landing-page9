@@ -3,9 +3,17 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
+
 body {
     background-color: lavender;
-  }
+}
+
+.sobre, .text-block{
+    display: flex;
+    display:inline;
+    flex-direction: column;
+}
+
 header{
     display: flex;
     align-items: flex-start;
@@ -16,19 +24,23 @@ header{
     justify-content:space-between;
     flex-wrap:wrap;
 }
+
 picture img{
     max-width: 15em;
 }
+
 .div-header{
     display: flex; 
     justify-content:right;
 }
+
 header a, input, select, button{
     display: flex;
     margin: 10px;
     padding: 10px;
     font-weight: bold;
 }
+
 header a{
 color:#fff
 }
@@ -45,6 +57,7 @@ input,select,button{
     margin: 3%;
     text-align : center;
 }
+
 .img-banner{
   display: flex;
   border-radius:10px;
@@ -52,6 +65,7 @@ input,select,button{
   max-height: 100%;
   text-align : center;
 }
+
 .sec-banner figcaption {
     position: absolute;
     top: 580px;
@@ -59,7 +73,7 @@ input,select,button{
     font-size: 40px;
     color:white;
     text-shadow: 0px 0px 5px black;
-  }
+}
 
 .opportunity {
     display: flex;
@@ -70,15 +84,45 @@ input,select,button{
     border-radius: 10px;
     flex-wrap:wrap;
 }
-form{
+
+.about{
+    display: flex;
+    align-items: flex-start;
+    background-color:#62c4c0;
+    padding: 45px;
+    margin: 3%;
+    border-radius: 10px;
+    flex-wrap:wrap;
+}
+.history-logo{
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+
+}
+.history-louy{
+ display: flex;
+ display: block;
+ padding: 10px;
+}
+
+.pho-about{
+    width: 100%;
+    justify-items: auto;
+    border-radius:15px;
+}
+
+form, .sobre-txt{
     display: flex;
     width: 50%;
 }
+
 .frm-search{
     display: flex;
     align-items: flex-start;
     flex-wrap:wrap;
 }
+
 .depoiments{
     display: flex;
     width: 50%;
@@ -87,20 +131,20 @@ form{
 .pho-depoiments {
     width : 15em;
     vertical-align: middle;
-
 }
+
 p{
     text-align: justify;
 }
 
-@media screen and (min-width: 400px) and (max-width: 800px) {
+@media screen and (min-width: 375px) and (max-width: 667px) {
     body {
       background-color: lightgreen;
     }
     .frm-search{
         width: 100%;   
     }
-    .depoiments{
+    .depoiments, .sobre-txt{
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -109,14 +153,28 @@ p{
         width: 100%;
         justify-items: auto;
     }
+    .pho-about{
+        width: 100%;
+        justify-items: auto;
+        border-radius:15px;
+    }
     .sec-banner figcaption {
         position: absolute;
         top: 400px;
-        right: 30px;
+        right: 50px;
         font-size: 25px;
         color:white;
         text-shadow: 0px 0px 5px black;
       }
+      .nav-btn{
+        display: none;
+      }
+      .history-logo{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100em;
+    }
+
   }
   
   
