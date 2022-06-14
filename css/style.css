@@ -93,6 +93,7 @@ input,select,button{
     margin: 3%;
     border-radius: 10px;
     flex-wrap:wrap;
+    justify-content: space-between;
 }
 .history-logo{
     display: flex;
@@ -139,7 +140,7 @@ p{
 
 @media screen and (min-width: 375px) and (max-width: 667px) {
     body {
-      background-color: lightgreen;
+      background-color: #dde2e8;
     }
     .frm-search{
         width: 100%;   
@@ -153,11 +154,7 @@ p{
         width: 100%;
         justify-items: auto;
     }
-    .pho-about{
-        width: 100%;
-        justify-items: auto;
-        border-radius:15px;
-    }
+ 
     .sec-banner figcaption {
         position: absolute;
         top: 400px;
