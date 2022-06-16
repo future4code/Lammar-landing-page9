@@ -34,13 +34,13 @@ h4{
 }
 h5{
     font-family:Arial, Helvetica, sans-serif ;
-    font-size: 14px;
+    font-size: 12px;
     
 
 }
 h6{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 10px;
 
 }
 @media screen and (min-widht: 375px) and (max-widht:667px ){
@@ -49,5 +49,3 @@ h6{
         justify-items:auto;
     }
 }
-    
-
