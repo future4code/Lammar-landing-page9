@@ -1,0 +1,53 @@
+body{
+   background-color:rgb(204, 242, 247);
+}
+
+
+
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(2 , 2fr);
+    grid-template-rows: repeat(2,2fr);
+    align-items: center;
+    gap: 19px;
+    margin: 50px;
+    
+    
+}
+.Img{
+    height: 150px;
+    width: 200px;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    
+}
+
+h4{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+
+
+  
+}
+h5{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 14px;
+    
+
+}
+h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+
+}
+@media screen and (min-widht: 375px) and (max-widht:667px ){
+    main{
+        display: flex;
+        justify-items:auto;
+    }
+}
+    
+
