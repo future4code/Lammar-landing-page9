@@ -1,13 +1,6 @@
 # landing-page-template
 # Header feita com minhas 2 section - Obejtivo concluido com sucesso!
 
-
-Surge
-
- comfortable-ear.surge.sh
-
-  Projeto F4Life
- 
 📱 Link Surge
 http://comfortable-ear.surge.sh
 
