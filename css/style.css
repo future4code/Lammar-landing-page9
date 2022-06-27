@@ -1,0 +1,215 @@
+*{
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-color: lavender;
+}
+
+.sobre, .text-block{
+    display: flex;
+    display:inline;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    align-items: flex-start;
+    background-color:#132235;
+    padding: 4px;
+    margin: 3%;
+    border-radius: 10px;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+
+picture img{
+    max-width: 15em;
+}
+
+.div-header{
+    display: flex; 
+    justify-content:right;
+}
+
+header a, input, select, button{
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+header a{
+color:#fff
+}
+
+input,select,button{
+    border-radius: 30px;
+    padding: 10px;
+    width: 100%;
+}
+
+.sec-banner{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 3%;
+    text-align : center;
+}
+
+.img-banner{
+  border-radius:10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sec-banner figcaption {
+    position: absolute;
+    top: 580px;
+    right: 110px;
+    font-size: 40px;
+    color:white;
+    text-shadow: 0px 0px 5px black;
+}
+
+.opportunity, .display-product {
+    display: flex;
+    align-items: flex-start;
+    background-color:#dde2e8;
+    padding: 40px;
+    margin: 3%;
+    border-radius: 10px;
+    flex-wrap:wrap;
+}
+
+.about{
+    display: flex;
+    align-items: flex-start;
+    background-color:#62c4c0;
+    padding: 40px;
+    margin: 3%;
+    border-radius: 10px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+.history-logo{
+    display: flex;
+    flex-direction: inline;
+    justify-content: space-between;
+
+}
+.history-louy{
+ display: flex;
+ display: block;
+ padding: 10px;
+}
+
+.pho-about{
+    width: 100%;
+    justify-items: auto;
+    border-radius:15px;
+}
+
+form, .sobre-txt{
+    display: flex;
+    width: 50%;
+}
+
+.frm-search{
+    display: flex;
+    align-items: flex-start;
+    flex-wrap:wrap;
+}
+
+.depoiments{
+    display: flex;
+    width: 50%;
+    text-align: center;
+}
+.pho-depoiments {
+    width : 15em;
+    vertical-align: middle;
+}
+
+p{
+    text-align: justify;
+}
+
+/* /////////////////////lUIZ */
+.display-product{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    padding: 40px;
+    margin: 3%;
+    border-radius: 10px;
+   
+}
+.Fachadas{
+    display: flex;
+    flex-direction: column;
+    margin: 3vh;
+    max-width: 50vh;
+}
+.Img{
+    width: 100%;
+    border-radius: 10px;
+}
+h2{
+    margin: 2vh 0vh 0vh 0vh;
+}
+p{
+    margin: 0.5vh;
+}
+
+/* ///////////////////// lUIZ/ */
+@media screen and (min-width: 375px) and (max-width: 667px) {
+    body {
+      background-color: #dde2e8;
+    }
+    .opportunity, .display-product, .about {
+        padding: 4px;
+    }
+    .frm-search{
+        width: 100%;   
+    }
+    .depoiments, .sobre-txt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 4px;
+    }
+    .pho-depoiments {
+        width: 100%;
+        justify-items: auto;
+    }
+    .sec-banner figcaption {
+        position: absolute;
+        top: 280px;
+        right: 10px;
+        font-size: 25px;
+        color:white;
+      }
+    
+      .nav-btn{
+        display: none;
+      }
+      .history-logo{
+        display: flex;
+        flex-direction: column-reverse;
+        max-width: 100em;
+    }
+    .display-product{
+        background-color:#dde2e8;
+        padding: 4px;
+    }
+    .pho-about{
+        width: 100%;
+        justify-items: auto;
+        border-radius:15px;
+    }
+
+  }
+  
+  
